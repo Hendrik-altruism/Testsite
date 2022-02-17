@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Test DB Welt</title>
+        <title>TestDBWelt</title>
         <meta charset="utf-8"> 
         <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">    
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li>Datenschutz</li>
-                    <li>Kontakt</li>
-                    <li><a href="&bilder">Bilder</a></li>
+            <nav class="topNavBar">
+                <ul class="navList">
+                    <li><a href="#datenbank">Datenbank</a></li>
+                    <li><a href="#bilder">Schema</a></li>
+                    <li><a href="#weiteres">Weiteres</a></li>
                 </ul>
             </nav>
+            <div class="top">
+                <h1 class="headline">Wilkommen zur Testseite für Datenbanken</h1>
+            </div>
         </header>
         <main> 
-            <h1>DB Test</h1>
-            <ul>
-                <li>Hallo</li>
-                <li>Welt</li>
-            </ul>
-            <section id="bilder">
-                <h2>Bilder</h2>
+            <section class="all" id="datenbank">
+                <h2 class="headline2">Datenbank</h2>
+            </section>
+            <section class="all" id="bilder">
+                <h2 class="headline2">Schema</h2>
                 <img src="img/009.jpg">
             </section>
+            <section class="all" id="weiteres">
+                <h2 class="headline2">Weiteres</h2>
+            </section>
         </main>
-        <footer>
-            <hr>
-            <h4>Links:</h4>
+        <footer class="bottomHead">
+            <h3 class="headline3">Links:</h3>
             <nav>
                 <ul>
                     <li><a href="https://gitlab.com/db70/Testsite" target="_blank">Gitlab</a></li>
